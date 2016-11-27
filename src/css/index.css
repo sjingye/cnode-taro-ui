@@ -85,11 +85,20 @@ nav a.active{
 	display: block;
 }
 /*popular-recommand部分*/
-.bannerpic{
+#popular-recommand{
 	width:10rem;
 	height:10.0rem;
 	overflow: hidden;
 }
+.bannerpic{
+	height:10.0rem;
+}
+.bannerpic img{
+	float:left;
+	width:10rem;
+	height:10rem;
+}	
+
 /*end popular-recommand部分*/
 /*friend-like部分*/
 .every-recom{
