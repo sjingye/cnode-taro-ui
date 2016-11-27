@@ -28,6 +28,10 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "gulp-webpack": "^1.5.0",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-zepto": "0.0.1"
+  },
+  "dependencies": {
+    "n-zepto": "^1.2.0"
   }
 }

@@ -1,17 +1,16 @@
 (function () {
-	var iTalk = $(".talk-box .input-talk");
-	var iSend = $(".talk-box .send");
-	var addTalk = $(".talk-box .add-talk");
+	var iTalk = $(".input-talk");
+	var iSend = $(".send");
+	var addTalk = $(".add-talk");
 	//添加对话
 	addTalk.on("touchend",function(){
 		iTalk.focus();
 	});
-    var nowTime = new Date();
-    console.dir(tabDate(nowTime));
 	//发送消息
 	iSend.on("touchend",function(){
 		var nowTime = new Date();
-		var newTalk = $("<div class='customer-talk'></div>").html("<div><p>"+iTalk.val()+"</p><p class='talk-time'>"+nowTime+"</p></div>");
+        console.log(tabDate(nowTime))
+		var newTalk = $("<div class='customer-talk'></div>").html("<div><p>"+iTalk.val()+"</p><p class='talk-time'>"+tabDate(nowTime).date+tabDate(nowTime).time+"</p></div>");
 		$(".wrap").append(newTalk);
 		// $(".wrap").css("bottom",0);
 		iTalk.val("");
