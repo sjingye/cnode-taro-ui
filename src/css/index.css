@@ -88,17 +88,21 @@ nav a.active{
 #popular-recommand{
 	width:10rem;
 	height:10.0rem;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .bannerpic{
+	width:50rem;
 	height:10.0rem;
+	transition: 1s;
 }
 .bannerpic img{
 	float:left;
 	width:10rem;
 	height:10rem;
 }	
-
+.symbol{
+	margin-top: -0.426667rem;
+}
 /*end popular-recommand部分*/
 /*friend-like部分*/
 .every-recom{
