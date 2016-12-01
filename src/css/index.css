@@ -87,13 +87,13 @@ nav a.active{
 /*popular-recommand部分*/
 #popular-recommand{
 	width:10rem;
-	height:10.0rem;
-	/*overflow: hidden;*/
 }
 .bannerpic{
 	width:50rem;
 	height:10.0rem;
 	transition: 1s;
+	position: relative;
+	overflow: hidden;
 }
 .bannerpic img{
 	float:left;
@@ -101,7 +101,52 @@ nav a.active{
 	height:10rem;
 }	
 .symbol{
-	margin-top: -0.426667rem;
+	width:1.333333rem;
+	height:0.16rem;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom:0.4rem;
+	left:4.35rem;
+	z-index:2;
+}
+.symbol li{
+	width:0.16rem;
+	height: 0.16px;
+	background-color: red;
+	border-radius: 50%;
+	float:left;
+}
+.symbol li.active{
+	background-color: #00bebe;
+}
+.dif-sections{
+	width:10rem;
+}
+.dif-sections li >h3{
+	font-size: 16px;
+	color:#333;
+	margin:1.0rem 0 0.4rem 0.4rem;
+}
+.dif-sections li >img{
+	width:10rem;
+	height:6.4rem;
+}
+.dif-sections li >p{
+	width:9.2rem;
+	height:0.4rem;
+	margin:0.4rem 0 0 0.4rem;
+	padding:0 0.4rem;
+	font-size: 14px;
+	color:#333;
+}
+.dif-sections li >p span{
+	float:left;
+}
+.dif-sections li >p strong{
+	float:right;
+	margin:0 1rem 0 0;
+	color:#ff4081;
 }
 /*end popular-recommand部分*/
 /*friend-like部分*/
@@ -339,7 +384,6 @@ nav a.active{
 	height:0.266667rem;
 }
 .icon-comment,.icon-comment img{
-	/*width: 0.266667rem;*/
 	height: 0.266667rem;
 }
 .hotel-lists{

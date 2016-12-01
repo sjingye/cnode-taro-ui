@@ -1,22 +1,19 @@
-html{
-    display: block;
-    height:100%;
-}
-[data-dpr="1"] body, body{
+body{
     width:10rem;
     font-family: "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
     margin: 0;
     -webkit-margin:0;
     background-color: #F5F5F5;
-    color: #9da1a7;
+    /* color: #9da1a7; */
     font-size:12px;
-    -webkit-text-size-adjust:100%;
-    overflow: hidden;         
-     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+    /* -webkit-text-size-adjust:100%; */
+    /*overflow: hidden;         */
+    /*  box-sizing: border-box;
+        -webkit-box-sizing: border-box; */
 }
 ul,p,h1,h2,h3,h4,h5,h6{
     margin:0;
+    padding:0;
 }
 li{
     list-style: none;

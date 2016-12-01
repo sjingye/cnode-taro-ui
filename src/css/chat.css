@@ -1,6 +1,6 @@
 /*chat*/
 .content{
-	width:0.48rem;
+	width:10rem;
 	height: 17.786667rem;
 	position: relative;
 	overflow: hidden;
@@ -11,6 +11,9 @@
 	position: absolute;
 	top:0;
 	left:0;
+}
+.wrap>div{
+	margin-bottom: 0.2rem;
 }
 .service-talk{
 	float:left;

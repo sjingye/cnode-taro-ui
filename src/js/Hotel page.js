@@ -11,7 +11,6 @@ services.tap(function () {
     services.removeClass("active");
     $(this).addClass("active");
     var index = services.index(this);
-    console.log(index);
     services.toggle(
         function () {
             $(this).find("img:first-child").attr("src",serviceImgs[index][0]);
